@@ -121,15 +121,6 @@ export default function FoundersPage() {
               </svg>
               Message Me on LinkedIn
             </Button>
-            <Button 
-              onClick={() => window.open('https://slack.com/app_redirect?team=foundess', '_blank')}
-              className="bg-[#4A154B] hover:bg-[#4A154B]/90 text-white rounded-md font-medium flex items-center"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="white" className="mr-2">
-                <path d="M5.042 15.165a2.528 2.528 0 0 1-2.52 2.523A2.528 2.528 0 0 1 0 15.165a2.527 2.527 0 0 1 2.522-2.52h2.52v2.52zM6.313 15.165a2.527 2.527 0 0 1 2.521-2.52 2.527 2.527 0 0 1 2.521 2.52v6.313A2.528 2.528 0 0 1 8.834 24a2.528 2.528 0 0 1-2.521-2.522v-6.313zM8.834 5.042a2.528 2.528 0 0 1-2.521-2.52A2.528 2.528 0 0 1 8.834 0a2.528 2.528 0 0 1 2.521 2.522v2.52H8.834zM8.834 6.313a2.528 2.528 0 0 1 2.521 2.521 2.528 2.528 0 0 1-2.521 2.521H2.522A2.528 2.528 0 0 1 0 8.834a2.528 2.528 0 0 1 2.522-2.521h6.312zM18.956 8.834a2.528 2.528 0 0 1 2.522-2.521A2.528 2.528 0 0 1 24 8.834a2.528 2.528 0 0 1-2.522 2.521h-2.522V8.834zM17.688 8.834a2.528 2.528 0 0 1-2.523 2.521 2.527 2.527 0 0 1-2.52-2.521V2.522A2.527 2.527 0 0 1 15.165 0a2.528 2.528 0 0 1 2.523 2.522v6.312zM15.165 18.956a2.528 2.528 0 0 1 2.523 2.522A2.528 2.528 0 0 1 15.165 24a2.527 2.527 0 0 1-2.52-2.522v-2.522h2.52zM15.165 17.688a2.527 2.527 0 0 1-2.52-2.523 2.526 2.526 0 0 1 2.52-2.52h6.313A2.527 2.527 0 0 1 24 15.165a2.528 2.528 0 0 1-2.522 2.523h-6.313z"/>
-              </svg>
-              Message Me on Slack
-            </Button>
           </div>
           
           <h2 className="text-3xl md:text-4xl font-bold text-left mb-24 font-chivo mt-16 md:mt-0">
@@ -141,7 +132,7 @@ export default function FoundersPage() {
             <div className="bg-[#111] rounded-xl overflow-hidden transition-all duration-300 hover:shadow-[0_0_20px_rgba(232,255,107,0.3)] hover:-translate-y-1">
               <div className="h-48 bg-gray-800 flex items-center justify-center relative">
                 <div className="absolute top-2 left-2 w-8 h-8 rounded-full bg-[#e8ff6b] text-black flex items-center justify-center font-bold">1</div>
-                <img src="sample.jpg" alt="Message on LinkedIn" className="object-cover w-full h-full opacity-80" />
+                <img src="IMG_7377.jpeg" alt="Message on LinkedIn" className="object-cover w-full h-full opacity-80" />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-3 font-chivo">Message Me on LinkedIn</h3>
@@ -155,7 +146,7 @@ export default function FoundersPage() {
             <div className="bg-[#111] rounded-xl overflow-hidden transition-all duration-300 hover:shadow-[0_0_20px_rgba(232,255,107,0.3)] hover:-translate-y-1">
               <div className="h-48 bg-gray-800 flex items-center justify-center relative">
                 <div className="absolute top-2 left-2 w-8 h-8 rounded-full bg-[#e8ff6b] text-black flex items-center justify-center font-bold">2</div>
-                <img src="sample.jpg" alt="Phone call" className="object-cover w-full h-full opacity-80" />
+                <img src="IMG_1007.jpeg" alt="Phone call" className="object-cover w-full h-full opacity-80" />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-3 font-chivo">I'll Give You a Call</h3>
@@ -169,7 +160,7 @@ export default function FoundersPage() {
             <div className="bg-[#111] rounded-xl overflow-hidden transition-all duration-300 hover:shadow-[0_0_20px_rgba(232,255,107,0.3)] hover:-translate-y-1">
               <div className="h-48 bg-gray-800 flex items-center justify-center relative">
                 <div className="absolute top-2 left-2 w-8 h-8 rounded-full bg-[#e8ff6b] text-black flex items-center justify-center font-bold">3</div>
-                <img src="sample.jpg" alt="Introductions" className="object-cover w-full h-full opacity-80" />
+                <img src="IMG_7249.jpeg" alt="Introductions" className="object-cover w-full h-full opacity-80" />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-3 font-chivo">I'll Make Introductions</h3>
@@ -181,7 +172,6 @@ export default function FoundersPage() {
           </div>
         </div>
       </section>
-
       {/* Timeline Comparison Section */}
       <section 
         className={`w-full py-32 px-8 md:px-16 bg-[#111] text-white transition-all duration-1000 transform ${sectionsVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}
