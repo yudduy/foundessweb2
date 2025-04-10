@@ -311,7 +311,7 @@ export default function FoundersPage() {
         style={{ transitionDelay: '400ms' }}
       >
         <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 font-chivo">Ready to Streamline Your Fundraising?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 font-chivo">Automate Your Fundraising Today</h2>
           <p className="text-lg mb-16 font-chivo">Choose a plan that fits your needs and join the waitlist.</p>
 
           {/* Pricing Plans Grid - Added */}
@@ -319,9 +319,9 @@ export default function FoundersPage() {
             {/* Starter Plan */}
             <div className="bg-white rounded-lg overflow-hidden shadow-lg h-full flex flex-col">
               <div className="p-6 border-b border-[#7B68EE]/20">
-                <h3 className="text-[#7B68EE] text-xl font-bold mb-2">Starter Plan</h3>
+                <h3 className="text-[#7B68EE] text-xl font-bold mb-2">Basic Tier</h3>
                 <div className="text-[#7B68EE] text-3xl font-bold">
-                  $99<span className="text-sm font-normal text-[#7B68EE]/70">/month</span>
+                  FREE
                 </div>
               </div>
               <div className="p-6 text-[#7B68EE]/80 flex-grow flex flex-col">
@@ -330,19 +330,25 @@ export default function FoundersPage() {
                     <svg className="h-5 w-5 text-[#7B68EE] mr-2 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Warm investor introductions</span>
+                    <span>15 warm intros</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-5 w-5 text-[#7B68EE] mr-2 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Basic fundraising tools</span>
+                    <span>3 meeting sit-in's and follow-up's</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-5 w-5 text-[#7B68EE] mr-2 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Email support</span>
+                    <span>Insights Panel</span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg className="h-5 w-5 text-[#7B68EE] mr-2 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span>Share Features</span>
                   </li>
                 </ul>
                 <Button 
@@ -357,9 +363,9 @@ export default function FoundersPage() {
             {/* Pro Plan */}
             <div className="bg-white rounded-lg overflow-hidden shadow-lg h-full flex flex-col">
               <div className="p-6 border-b border-[#7B68EE]/20">
-                <h3 className="text-[#7B68EE] text-xl font-bold mb-2">Pro Plan</h3>
+                <h3 className="text-[#7B68EE] text-xl font-bold mb-2">Hatch Tier</h3>
                 <div className="text-[#7B68EE] text-3xl font-bold">
-                  $299<span className="text-sm font-normal text-[#7B68EE]/70">/month</span>
+                  $15<span className="text-sm font-normal text-[#7B68EE]/70">/month</span>
                 </div>
               </div>
               <div className="p-6 text-[#7B68EE]/80 flex-grow flex flex-col">
@@ -368,25 +374,19 @@ export default function FoundersPage() {
                      <svg className="h-5 w-5 text-[#7B68EE] mr-2 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                      </svg>
-                     <span>All Starter features</span>
+                     <span>Unlimited warm intros</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-5 w-5 text-[#7B68EE] mr-2 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Advanced investor matching</span>
+                    <span>30/month meeting sit-in's and follow-ups</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-5 w-5 text-[#7B68EE] mr-2 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Priority support</span>
-                  </li>
-                  <li className="flex items-start">
-                     <svg className="h-5 w-5 text-[#7B68EE] mr-2 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                     </svg>
-                     <span>Conversion optimization tools</span>
+                    <span>Automated SAFE and transaction management</span>
                   </li>
                 </ul>
                 <Button 
@@ -401,9 +401,9 @@ export default function FoundersPage() {
             {/* Business Plan */}
             <div className="bg-white rounded-lg overflow-hidden shadow-lg h-full flex flex-col">
               <div className="p-6 border-b border-[#7B68EE]/20">
-                <h3 className="text-[#7B68EE] text-xl font-bold mb-2">Business Plan</h3>
+                <h3 className="text-[#7B68EE] text-xl font-bold mb-2">Moonshot Tier</h3>
                 <div className="text-[#7B68EE] text-3xl font-bold whitespace-nowrap">
-                  Custom pricing
+                Custom Pricing
                 </div>
               </div>
               <div className="p-6 text-[#7B68EE]/80 flex-grow flex flex-col">
@@ -412,19 +412,19 @@ export default function FoundersPage() {
                     <svg className="h-5 w-5 text-[#7B68EE] mr-2 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>All Pro features</span>
+                    <span>Everything in Hatch</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-5 w-5 text-[#7B68EE] mr-2 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Dedicated account manager</span>
+                    <span>Unlimited meeting sit-in's and follow up's</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-5 w-5 text-[#7B68EE] mr-2 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Custom integration options</span>
+                    <span>Custom models trained on individual communication styles</span>
                   </li>
                 </ul>
                 <Button 
